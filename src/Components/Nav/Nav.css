@@ -1,0 +1,33 @@
+
+
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+   
+
+}
+
+
+.navContainer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin-inline: 20px;
+    letter-spacing: 0.5px;
+    position: relative; /* Necesario para posicionar la línea */
+}
+
+.navContainer a.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -5px; /* Ajusta según la distancia que quieras de la línea al texto */
+    height: 2px; /* Grosor de la línea */
+    background-color: #891343; /* Color de la línea */
+    transform: scaleX(1);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}

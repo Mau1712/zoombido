@@ -1,0 +1,36 @@
+.skillsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1050px;  
+    padding: 0%;  
+    padding-block: 100px 50px;
+  }
+  
+  .counterContent {
+    font-family: "Nunito", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+  }
+
+  .countBox {
+    display: flex;
+  }
+
+  .counterContent span {
+    color: #891343;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .counterContent p {
+    font-size: 16px;
+  }
+  

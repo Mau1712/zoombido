@@ -1,0 +1,116 @@
+
+.aboutContainerFather {
+    background-image: url(../../assets/Images/bgAbout.PNG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-block: 50px;
+}
+
+
+
+.aboutContainer {    
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.aboutCEOBox {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutCEOBox img {
+    width: 80%;
+}
+
+.aboutCEOContent {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+
+    position: relative;
+}
+
+.aboutCEOContentTitle {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.aboutCEOContentTitle h2 {
+    color: rgb(98, 98, 98);
+    font-weight: 100;
+    text-align: center;
+    font-size: 45px;
+    letter-spacing: 1px;
+    text-align: end;
+    /* margin-top: 20px; */
+}
+
+.boxbox {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutCEOContentMv h3 {
+    color: rgb(98, 98, 98);
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.aboutCEOContentMv p {
+    color: rgb(163, 162, 162);
+    width: 68%;
+    font-size: 18px;
+}
+
+.aboutCEOContentVa h3 {
+    color: rgb(98, 98, 98);
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: end;
+    margin-bottom: 20px;
+}
+
+.aboutCEOContentVa p {
+    color: rgb(163, 162, 162);
+    font-size: 18px;
+    text-align: end;
+}
+
+.aboutCEOContentOb h3 {
+    color: rgb(98, 98, 98);
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.aboutCEOContentOb p {
+    color: rgb(163, 162, 162);
+    font-size: 18px;
+    text-align: start;
+}

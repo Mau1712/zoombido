@@ -1,0 +1,88 @@
+
+.contactTitleContainer {
+    max-width: 1100px;
+    margin-bottom: 50px;
+}
+
+.contactTitleContainer h2 {
+    color: rgb(98, 98, 98);
+    font-weight: 100;
+    text-align: start;
+    font-size: 45px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    max-width: 1100px;
+}
+
+.ContactContent {
+    width: 50%;
+}
+
+
+.ContactContent img {
+    width: 100%;
+    padding: 30px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    cursor: url('../src/assets/Images/cursor2.png'), auto;
+}
+
+.form-control::placeholder {
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.form-control::marker {
+    color: white;
+}
+
+.form-control:focus {
+    background-color: black;
+    box-shadow: none;
+    border-color: white;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.ContactContent button {
+    background-color: #7E2043;
+    border: none;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    padding-inline: 45px;
+    padding-block: 10px;
+    border-radius: 10px;
+    cursor: url('../src/assets/Images/cursor2.png'), auto !important;
+}
+
+.ContactContent button:hover {
+    background-color: #7e2042d4;
+}
+
+.ContactContent button:active {
+    background-color: #7e2042e3 !important;
+}
+
+.boxBtnForm {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
