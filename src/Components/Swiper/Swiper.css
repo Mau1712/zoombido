@@ -51,6 +51,7 @@
 
 .swiper-card img {
     width: 100%;
+    padding-inline: 15px;
 }
 
 .card-center {

@@ -1,16 +1,17 @@
 import { useState } from "react";
 import "./Swiper.css";
 import { Container } from "react-bootstrap";
-import imgPrueba from "../../assets/Images/dronePrueba.png"
-
+import drone1 from "../../assets/Images/drone1.png"
+import drone2 from "../../assets/Images/drone2.png"
+import drone3 from "../../assets/Images/drone3.png"
 // Datos de las tarjetas
 const cardData = [
-    { image: imgPrueba, subtitle: "Subtitle 1" },
-    { image: imgPrueba, subtitle: "Subtitle 2" },
-    { image: imgPrueba, subtitle: "Subtitle 3" },
-    { image: imgPrueba, subtitle: "Subtitle 4" },
-    { image: imgPrueba, subtitle: "Subtitle 5" },
-    { image: imgPrueba, subtitle: "Subtitle 6" },
+    { image: drone1, subtitle: "Subtitle 1" },
+    { image: drone2, subtitle: "Subtitle 2" },
+    { image: drone3, subtitle: "Subtitle 3" },
+    { image: drone1, subtitle: "Subtitle 4" },
+    { image: drone2, subtitle: "Subtitle 5" },
+    { image: drone3, subtitle: "Subtitle 6" },
 ];
 
 const Swiper = () => {

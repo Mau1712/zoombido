@@ -7,39 +7,59 @@ const Skills = () => {
     const [count2, setCount2] = useState(0);
     const [count3, setCount3] = useState(0);
     const [count4, setCount4] = useState(0);
+    const [hasStarted, setHasStarted] = useState(false);
 
-    const speed1 = 450; // Velocidad para el contador 1
-    const speed2 = 10;  // Velocidad para el contador 2
-    const speed3 = 350; // Velocidad para el contador 3
-    const speed4 = 100; // Velocidad para el contador 4
+    const speed1 = 450;
+    const speed2 = 10;
+    const speed3 = 350;
+    const speed4 = 100;
+
+    const checkIfVisible = () => {
+        const counters = document.getElementById('counters');
+        const rect = counters.getBoundingClientRect();
+        const isVisible = rect.top >= 0 && rect.bottom <= window.innerHeight;
+        if (isVisible) {
+            setHasStarted(true);
+            window.removeEventListener('scroll', checkIfVisible);
+        }
+    };
 
     useEffect(() => {
-        const interval1 = setInterval(() => {
-            setCount1((prev) => (prev < 4 ? prev + 1 : 4));
-        }, speed1);
-
-        const interval2 = setInterval(() => {
-            setCount2((prev) => (prev < 500 ? prev + 1 : 500));
-        }, speed2);
-
-        const interval3 = setInterval(() => {
-            setCount3((prev) => (prev < 6 ? prev + 1 : 6));
-        }, speed3);
-
-        const interval4 = setInterval(() => {
-            setCount4((prev) => (prev < 40 ? prev + 1 : 40));
-        }, speed4);
-
+        window.addEventListener('scroll', checkIfVisible);
         return () => {
-            clearInterval(interval1);
-            clearInterval(interval2);
-            clearInterval(interval3);
-            clearInterval(interval4);
+            window.removeEventListener('scroll', checkIfVisible);
         };
-    }, [speed1, speed2, speed3, speed4]);
+    }, []);
+
+    useEffect(() => {
+        if (hasStarted) {
+            const interval1 = setInterval(() => {
+                setCount1((prev) => (prev < 4 ? prev + 1 : 4));
+            }, speed1);
+
+            const interval2 = setInterval(() => {
+                setCount2((prev) => (prev < 500 ? prev + 1 : 500));
+            }, speed2);
+
+            const interval3 = setInterval(() => {
+                setCount3((prev) => (prev < 6 ? prev + 1 : 6));
+            }, speed3);
+
+            const interval4 = setInterval(() => {
+                setCount4((prev) => (prev < 40 ? prev + 1 : 40));
+            }, speed4);
+
+            return () => {
+                clearInterval(interval1);
+                clearInterval(interval2);
+                clearInterval(interval3);
+                clearInterval(interval4);
+            };
+        }
+    }, [hasStarted, speed1, speed2, speed3, speed4]);
 
     return (
-        <Container className="skillsContainer">
+        <Container id="counters" className="skillsContainer">
             <div className="counterContent">
                 <div className="countBox">
                     {count1}<span>K</span>

@@ -8,6 +8,7 @@ import Portfolio from './Components/Portfolio/Portfolio'
 import About from './Components/About/About'
 import Swiper from './Components/Swiper/Swiper'
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -46,6 +47,9 @@ function App() {
         </section>
       </main>
 
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }

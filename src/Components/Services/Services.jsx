@@ -1,7 +1,7 @@
 
 import { Container } from 'react-bootstrap'
 
-import fpvicon from "../../assets/Images/FPV-icon.png"
+import fpvicon from "../../assets/Images/fvpIcon.png"
 import inmoIcon from "../../assets/Images/inmoIcon.png"
 import estabIcon from "../../assets/Images/estabIcon.png"
 import liveIcon from "../../assets/Images/liveIcon.png"
