@@ -4,18 +4,18 @@ import "./Nav.css";
 
 const Nav = () => {
     const [activeLink, setActiveLink] = useState('');
-  
 
     const handleClick = (link) => {
         setActiveLink(link);
+
+        const element = document.getElementById(link);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
-  
-
     return (
-        <Container 
-            className='navContainer'
-        >
+        <Container className='navContainer'>
             <div>
                 <a href="#experience"
                     className={activeLink === 'experience' ? 'active' : ''}

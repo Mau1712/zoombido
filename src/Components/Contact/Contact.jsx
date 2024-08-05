@@ -1,6 +1,6 @@
 import React from 'react'
 import { Form, Button, Container } from 'react-bootstrap';
-import contactImg from "../../assets/Images/matrice300.png"
+import contactImg from "../../assets/Images/contactImg.png"
 
 import "./Contact.css"
 

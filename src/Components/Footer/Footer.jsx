@@ -18,15 +18,15 @@ const Footer = () => {
                 </div>
 
                 <div className='footerContentRedes'>
-                    <a href="">
+                    <a href="https://www.instagram.com/zoombido.vd?igsh=aGQ3NW1zeXE2aTZy" target='blank'>
                         <img src={instagramIcon} alt="instagram" />
                     </a>
 
-                    <a href="">
+                    <a href="https://www.tiktok.com/@zoombido.vd?_t=8objgZi9DBG&_r=1" target='blank'>
                         <img src={tiktokIcon} alt="tik tok" />
                     </a>
 
-                    <a href="">
+                    <a href="" target='blank'>
                         <img src={wpIcon} alt="whatsapp" />
                     </a>
                 </div>
