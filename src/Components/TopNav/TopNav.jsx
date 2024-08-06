@@ -10,7 +10,7 @@ const TopNav = () => {
   return (
     <Container className='topNavContainer'>
        <img src={logoZoombido} alt="Logo Zoombido" />
-       <p>VIDEO DRON</p>
+       <p>VIDEO DRONE</p>
     </Container>
   )
 }

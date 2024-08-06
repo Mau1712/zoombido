@@ -14,7 +14,7 @@ const Footer = () => {
             <div className='footerContent'>
                 <div className='footerContentLogo'>
                     <img src={logoZoombido} alt="" />
-                    <p>VIDEO DRON</p>
+                    <p>VIDEO DRONE</p>
                 </div>
 
                 <div className='footerContentRedes'>
