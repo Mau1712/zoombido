@@ -96,7 +96,7 @@ const Swiper = () => {
                             className={`swiper-card ${isCenter ? 'card-center' : ''}`}
                             style={{
                                 zIndex,
-                                transform: `translateX(${(positionIndex - 1) * 370 + offsetX}px)`, // Espacio entre tarjetas
+                                transform: `translateX(${(positionIndex - 1) * 370 + offsetX}px)`, 
                             }}
                         >
                             <img src={card.image} alt={`Card ${index + 1}`} className="card-image" />

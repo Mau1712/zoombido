@@ -20,7 +20,7 @@ const Services = () => {
             <div className='servicesContent'>
 
                 <div className='serviceItem serviceItem1'>
-                        <img src={estabIcon} alt="" />
+                        <img src={estabIcon} alt="Drone Estabilizador" />
                         <p>Drone Estabilizador</p>
                         <div className="overlayServ">
                             <p className="overlayText">Descripción de la Estabilizador</p>
@@ -28,7 +28,7 @@ const Services = () => {
                 </div>
 
                 <div className='serviceItem serviceItem2'>
-                        <img src={fpvicon} alt="" />
+                        <img src={fpvicon} alt="FVP" />
                         <p>FVP</p>
                         <div className="overlayServ">
                             <p className="overlayText">Descripción de FVP</p>
@@ -36,7 +36,7 @@ const Services = () => {
                 </div>
 
                 <div className='serviceItem serviceItem3'>
-                        <img src={tourIcon} alt="" />
+                        <img src={tourIcon} alt="Tour FPV" />
                         <p>Tour FPV</p>
                         <div className="overlayServ">
                             <p className="overlayText">Descripción de Tour FPV</p>
@@ -44,7 +44,7 @@ const Services = () => {
                 </div>
 
                 <div className='serviceItem serviceItem4'>
-                        <img src={liveIcon} alt="" />
+                        <img src={liveIcon} alt="Transmisión en vivo" />
                         <p>Transmisión en vivo</p>
                         <div className="overlayServ">
                             <p className="overlayText">Descripción de la Transmisión</p>
@@ -52,7 +52,7 @@ const Services = () => {
                 </div>
 
                 <div className='serviceItem serviceItem5'>
-                        <img src={inmoIcon} alt="" />
+                        <img src={inmoIcon} alt="Inmobiliaria" />
                         <p>Inmobiliaria</p>
                         <div className="overlayServ">
                             <p className="overlayText">Descripción de la Inmobiliaria</p>
@@ -60,7 +60,7 @@ const Services = () => {
                 </div>
 
                 <div className='serviceItem serviceItem6'>
-                        <img src={paisIcon} alt="" />
+                        <img src={paisIcon} alt="Paisajismo" />
                         <p>Paisajismo</p>
                         <div className="overlayServ">
                             <p className="overlayText">Descripción de Paisajismo</p>

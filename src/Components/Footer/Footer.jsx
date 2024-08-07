@@ -13,7 +13,7 @@ const Footer = () => {
         <Container className='footerContainer'>
             <div className='footerContent'>
                 <div className='footerContentLogo'>
-                    <img src={logoZoombido} alt="" />
+                    <img src={logoZoombido} alt="zoombido logo" />
                     <p>VIDEO DRONE</p>
                 </div>
 

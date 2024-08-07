@@ -24,7 +24,7 @@ const Portfolio = () => {
             <div className='gridContainerPortfolio'>
                 <div className="portfolioItem1 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem1} alt="" />
+                        <img src={portfolioItem1} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -33,7 +33,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem2 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem2} alt="" />
+                        <img src={portfolioItem2} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -41,7 +41,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem3 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem3} alt="" />
+                        <img src={portfolioItem3} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem4 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem4} alt="" />
+                        <img src={portfolioItem4} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem5 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem5} alt="" />
+                        <img src={portfolioItem5} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -65,7 +65,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem6 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem6} alt="" />
+                        <img src={portfolioItem6} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem7 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem7} alt="" />
+                        <img src={portfolioItem7} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -81,7 +81,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem8 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem8} alt="" />
+                        <img src={portfolioItem8} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>
@@ -89,7 +89,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolioItem9 portfolioItem">
                     <a href="">
-                        <img src={portfolioItem9} alt="" />
+                        <img src={portfolioItem9} alt="zoombido" />
                         <div className="overlayPort">
                             <p className="overlayTextPort">VER VIDEO</p>
                         </div>

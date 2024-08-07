@@ -9,7 +9,7 @@ const About = () => {
     <div className="aboutContainerFather">
       <Container className="aboutContainer">
         <div className="aboutCEOBox">
-          <img src={zoombidoCEO} alt="" />
+          <img src={zoombidoCEO} alt="zoombido" />
         </div>
 
         <div className="aboutCEOContent">

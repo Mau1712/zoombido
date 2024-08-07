@@ -62,7 +62,7 @@ const Contact = () => {
                 </Container>
 
                 <Container className='ContactContent'>
-                    <img src={contactImg} alt="" />
+                    <img src={contactImg} alt="zoombido" />
                 </Container>
             </Container>
         </>
