@@ -11,7 +11,6 @@ import Footer from './Components/Footer/Footer'
 
 import arrowTopIcon from "./assets/Images/arrowTopIcon.png"
 
-
 import './App.css'
 
 function App() {

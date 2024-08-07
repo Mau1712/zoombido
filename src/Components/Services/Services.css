@@ -36,10 +36,7 @@
     overflow: hidden;
 }
 
-.serviceItem a {
-    text-decoration: none;
-    text-align: center;
-}
+
 
 .overlayServ {
     position: absolute;
